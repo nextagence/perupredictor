@@ -45,10 +45,10 @@
     </div>
   </div>
 
-<script>
-  function(){
+  <script>
+  (function(){
     var CURRENCY = "PEN";
-    var HIGH_BET_THRESHOLD = 10;
+    var HIGH_BET_THRESHOLD = 15;
     var MIN_SPINS = 2;
     var MAX_SPINS = 7;
     var MIN_TOTAL_BET = 1;
@@ -142,7 +142,7 @@
       var pattern = computePattern(budget);
       render(pattern, budget);
     });
-  };
-</script>
+  })();
+  </script>
 </body>
 </html>
